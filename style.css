@@ -1,0 +1,183 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+    
+}
+body{
+  background-color: rgb(234, 234, 234);
+}
+
+
+.nav-link{
+    color: black;
+    font-weight: bolder;
+}
+
+.container-fluid img{
+    width: 150px;
+    height: 30px;
+   padding-left: 20px;
+  
+
+}
+.navbar-nav .dropdown:hover .dropdown-menu {
+    display: block;
+}
+.custom-dropdown .dropdown-toggle::after {
+    display: none;
+  }
+   .carousel-item{
+    position: relative;
+   }
+
+    
+  
+  .carousel-item img{
+    border-radius: 50px;
+    padding-left: 20px;
+    padding-right: 30px;
+    margin: 10px;
+}
+
+  
+  .carousel-caption {
+    position: absolute;
+    top: 25%;
+    left: 0;
+    right: 25% !important;
+    
+   
+   
+}
+.card-body {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+}
+ 
+
+
+.carousel-caption h1{
+    font-size: 60px;
+    font-weight: bolder;
+    font-family: "Noto Sans", sans-serif;
+
+   
+}
+.carousel-caption button{
+  padding: 10px 100px;
+  border-radius: 15px;
+  border: none;
+  margin-top: 10px;
+  font-weight: bolder;
+}
+ @media(max-width: 1000px){
+
+  #pic1 img{
+    content: url(width2674\ \(1\).webp);
+    margin: 15px 0;
+    padding: 0 30px;
+  }
+  #pic2 img{
+    content: url(width2674\ \(2\).webp);
+    margin: 15px 0;
+    padding: 0 30px;
+  }
+  #pic3 img{
+    content: url(width2674-2.webp);
+    margin: 15px 0;
+    padding: 0 30px;
+  }
+    .carousel-caption {
+      position: absolute;
+      top: 8vh; /* Position at the top */
+      left: 20vw;
+      right: 0;
+      bottom: auto; /* Reset bottom positioning */
+      text-align: center; /* Center horizontally */
+      padding: 10px; 
+    }
+
+} 
+@media(max-width: 500px){
+  .carousel-caption h1{
+    font-size: 30px;
+    font-weight: bolder;
+    font-family: "Noto Sans", sans-serif; 
+}
+.carousel-caption button {
+  padding: 5px 50px; 
+  font-size: 14px; 
+}
+
+
+}
+
+
+/* next section */
+
+
+h1{
+  font-size: 40px;
+    font-weight: bold;
+    font-family: "Noto Sans", sans-serif;
+}
+h2{
+  font-size: 30px;
+    font-weight: bold;
+    font-family: "Noto Sans", sans-serif;
+}
+/* next */
+
+.btn {
+  background-color: transparent;
+  border-color: black;
+  border-radius: 20px;
+  border-width: 3px;
+}
+
+  .custom-card {
+    border-radius: 15px;
+    box-shadow: 0px 8px 12px rgba(0, 0, 0, 0.2);
+  }
+
+#butt{
+  padding-left: 100px;
+  padding-right: 100px;
+}
+/* footer section */
+ul li{
+  list-style: none;
+  padding-bottom: 5px;
+}
+ul a{
+  text-decoration: none;
+  color: azure;
+}
+.footer-icon li{
+   
+    display: inline-block;
+    margin-right: 15px;
+   
+  }
+  @media(max-width: 768px){
+    .lap{
+      display: none;
+
+    }
+    .mob {
+      display: block;
+  }
+    }
+  
+  @media(min-width: 768px){
+   .mob{
+     display: none;
+   }
+   .lap {
+    display: block;
+}
+  }
