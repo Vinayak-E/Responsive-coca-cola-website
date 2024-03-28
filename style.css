@@ -102,7 +102,7 @@ body{
     }
 
 } 
-@media(max-width: 500px){
+@media(max-width: 600px){
   .carousel-caption h1{
     font-size: 30px;
     font-weight: bolder;
